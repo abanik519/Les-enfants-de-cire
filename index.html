@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <script src="main.js"></script>
+    <body>
+    <!-- Slideshow container -->
+
+    <div class="phoneText">Not available on this device</div>
+
+    <div class="slideshow-container">
+        <div class="title">Les  enfants de cire</div>
+        <div class="slide-container">
+            <div class="arrow-container">
+                <a class="next" id="p" onclick="plusSlides(-1)">&#10094;</a>
+            </div>
+
+            <!-- Slides -->
+            <!-- Intro Slide -->
+            <div class="slide fade" style="display: flex">
+                <div class="image-container">
+                    <img class="image" src="/images/01.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                    <div id="intro" class="speech sb1">
+                        Aujourd’hui, tu vas lire l’histoire « Les enfants de cire. » Sélectionnez la flèche pour passer à la page suivante.
+                        <span class="success-checkmark" onclick="hide('intro'); showNext()"></span>
+                    </div>
+                </div>
+
+                <div class="input-container">
+                    <input class="input-box" placeholder="Enter Name"/>
+                    <input class="input-box" placeholder="Enter ID"/>
+                    <input class="input-box" placeholder="Enter RA Name"/>
+                    <input class="input-box" placeholder="Enter Date"/>
+                    <div class="begin-button" onclick="show('intro')">Press To Begin</div>
+                </div>
+            </div>
+            <!-- Slide 1 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/02.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Il y a une famille bien heureuse. Ils ne se disputent jamais.
+                        <span class="success-checkmark" onclick="showNext()"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/03.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Ils aident leurs parents à la maison et dans les champs. 
+                        <span class="success-checkmark" onclick="showNext()"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/04.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Mais ils n’ont pas le droit de s’approcher d’un feu.
+                        <span class="success-checkmark" onclick="showNext()"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/05.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Ils doivent faire tout leur travail pendant la nuit. Puisqu’ils sont faits de cire! Mais un des garçons désire se promener au soleil.
+                        <span class="success-checkmark" onclick="showNext()"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/06.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Un jour son désir est trop puissant. Ses frères l’avertissent… 
+                        <span class="success-checkmark" onclick="showNext()"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/07.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Mais c’est trop tard! Il fond au soleil brûlant.
+                        <span class="success-checkmark" onclick="showNext()"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/08.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Les enfants de cire sont si tristes de voir leur frère fondre.
+                        <span class="success-checkmark" onclick="showNext()"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/09.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Mais ils font un plan. Ils façonnent le morceau de cire fondue en oiseau.
+                        <span class="success-checkmark" onclick="showNext()"></span>
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 9 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/10.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Ils apportent leur frère l’oiseau jusqu’au sommet d’une montagne haute.
+                        <span class="success-checkmark" onclick="showNext()"></span>
+
+                    </p>
+                </div>
+            </div>
+            <!-- Slide 10 -->
+            <div class="slide fade">
+                <div class="image-container">
+                    <img class="image" src="/images/11.jpg"/>
+                    <div class="avatar-container">
+                        <img class="avatar" src="/images/Avatar.png"/>
+                    </div>
+                </div>
+
+
+                <div class="text-container">
+                    <p>Et lorsque le soleil se lève, il s’envole vers la lumière du matin en chantant.
+                        <span class="success-checkmark" onclick="showNext()"></span>
+
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="arrow-container">
+                <a class="next" id="n" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        
+        <div class="pageNum-container">
+            <p id="pageNum"></p>
+        </div>
+
+    </div>
+  
+
+
+
+
+    </body>
+
+   
+
+</html>
